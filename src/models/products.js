@@ -10,6 +10,9 @@ export default {
     delete(state, { payload: id }) {
       return {
         ...state,
+
+
+        
 				productsList:state.productsList.filter(item => item.id !== id)
       }
     },
