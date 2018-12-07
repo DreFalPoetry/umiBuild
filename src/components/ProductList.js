@@ -17,7 +17,7 @@ export default class ProductList extends PureComponent {
         );
       },
     }];
-  }
+  } 
 
   render(){
     const { productsList } = this.props;
