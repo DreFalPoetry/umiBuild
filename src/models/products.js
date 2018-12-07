@@ -9,12 +9,9 @@ export default {
   reducers: {
     delete(state, { payload: id }) {
       return {
-        ...state,
-
-
-        
-				productsList:state.productsList.filter(item => item.id !== id)
-      }
+        ...state,  
+				    productsList:state.productsList.filter(item => item.id !== id)
+      };
     },
   },
 };
